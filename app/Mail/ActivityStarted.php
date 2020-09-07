@@ -37,7 +37,7 @@ class ActivityStarted extends Mailable
      */
     public function build()
     {
-        return $this->from('know-reply@stats4sd.org')
+        return $this->from('no-reply@stats4sd.org')
         ->subject('Testing Alert System')
         ->markdown('emails.activity.started');
     }
