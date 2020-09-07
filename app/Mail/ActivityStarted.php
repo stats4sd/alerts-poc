@@ -15,16 +15,19 @@ class ActivityStarted extends Mailable
 
     public $user;
 
+    public $alert;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($activity, $user)
+    public function __construct($activity, $user, $alert)
     {
         //
         $this->activity = $activity;
         $this->user = $user;
+        $this->alert = $alert;
     }
 
     /**

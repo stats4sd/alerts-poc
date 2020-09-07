@@ -17,7 +17,7 @@ class AlertObserver
      */
     public function created(Alert $alert)
     {
-        Mail::to($alert->user->email)->send(new ActivityStarted($alert->activity, $alert->user));
+        Mail::to($alert->user->email)->send(new ActivityStarted($alert->activity, $alert->user, $alert));
     }
 
     /**
