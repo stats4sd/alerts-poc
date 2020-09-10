@@ -19,6 +19,7 @@
                 " class="my-4">
                 The Monitoring and Evaluation of the Somalia Humanitarian, Resilience and Health Programmes</p>
             </div>
+            <h4 class="text-center mb-4"><a href="{{ route('backpack.auth.register') }}">{{ trans('backpack::base.register') }}</a></h4>
             <h3 class="text-center mb-4">Login to MESH Alerts Proof of Concept Site</h3>
             <div class="card">
                 <div class="card-body">
@@ -77,7 +78,7 @@
                 <div class="text-center"><a href="{{ route('backpack.auth.password.reset') }}">{{ trans('backpack::base.forgot_your_password') }}</a></div>
             @endif
             @if (config('backpack.base.registration_open'))
-                <div class="text-center"><a href="{{ route('backpack.auth.register') }}">{{ trans('backpack::base.register') }}</a></div>
+
             @endif
         </div>
     </div>
