@@ -1,4 +1,5 @@
 # Alerts POC
+Proof of concept for a survey monitoring system that sends automated alerts (eg. via email) when new submissions are made.
 
 # Development
 This platform is built using Laravel/PHP, the admin panel uses Backpack for Laravel.
